@@ -1,10 +1,23 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
-export default function NavBar(props) {
+export default function NavBar() {
     const current = <span className="sr-only">(current)</span>;
+    const location = useLocation();
+    let currentPage = "";
+    console.log(location.pathname);
+    if(location.pathname === "/contact"){
+        currentPage = "contact";
+    }
+    else if(location.pathname === "/portfolio"){
+        currentPage = "portfolio";
+    }
+    else{
+        currentPage = "about";
+    }
+    console.log(currentPage);
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <Link to="/index" className="navbar-brand" >
                 Devin Gillogly
             </Link>
@@ -13,14 +26,14 @@ export default function NavBar(props) {
             </button>
             <nav className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <nav className="navbar-nav ml-auto text-right">
-                    <Link to="/contact.html" className={props.currentPage === "contact" ? "nav-item nav-link active" :  "nav-item nav-link"}>
-                        Contact {props.currentPage === "contact" ? current : ""}
+                    <Link to="/contact" className={currentPage === "contact" ? "nav-item nav-link active" :  "nav-item nav-link"}>
+                        Contact {currentPage === "contact" ? current : ""}
                     </Link>
-                    <Link to="/portfolio.html" className={props.currentPage === "portfolio" ? "nav-item nav-link active" :  "nav-item nav-link"}>
-                        Portfolio {props.currentPage === "portfolio" ? current : ""}
+                    <Link to="/portfolio" className={currentPage === "portfolio" ? "nav-item nav-link active" :  "nav-item nav-link"}>
+                        Portfolio {currentPage === "portfolio" ? current : ""}
                     </Link>
-                    <Link to="/About" className={props.currentPage === "about" ? "nav-item nav-link active" :  "nav-item nav-link"}>
-                        About {props.currentPage === "about" ? current : ""}
+                    <Link to="/about" className={currentPage === "about" ? "nav-item nav-link active" :  "nav-item nav-link"}>
+                        About {currentPage === "about" ? current : ""}
                     </Link>
                 </nav>
             </nav>
