@@ -96,6 +96,13 @@ footer{
   text-align: center;
 }
 
+.reminder{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
 /* Change the wrapper dimensions and margins for xs screens */
 @media (max-width: 575px) {
   .content-wrap {
