@@ -11,26 +11,6 @@
     },
     {
       "id": 2,
-      "name": "Weather Dashboard",
-      "unique": "dash",
-      "imageSized": "./img/dashboardExampleSized.PNG",
-      "image": "./img/dashboardExample.PNG",
-      "description": "Utilizing the free OpenWeather API, this application retrieves weather data for cities for the current day, as well as a five-day forecast. The last ten searched cities are saved in local storage and displayed on the screen so the user can easily check a previously searched city.",
-      "gitHub": "https://github.com/virlym/hw6-weather-forecast",
-      "deployed": "https://virlym.github.io/hw6-weather-forecast/"
-    },
-    {
-      "id": 3,
-      "name": "Password Generator",
-      "unique": "pass",
-      "imageSized": "./img/passwordGeneratorSized.PNG",
-      "image": "./img/passwordGenerator.PNG",
-      "description": "Utilizing existing HTML and CSS, javascript code was written to generate a password based on user inputs. When the user presses the generate password button, they will be prompted with a series of questions. A password is then constructed using random values of the selected inputs until it is the desired length.",
-      "gitHub": "https://github.com/virlym/hw3-password-generator",
-      "deployed": "https://virlym.github.io/hw3-password-generator/"
-    },
-    {
-      "id": 4,
       "name": "The Cold West",
       "unique": "tcw",
       "imageSized": "./img/tcwHomePageSized.png",
@@ -38,5 +18,35 @@
       "description": "The Cold West is a web app that allows the user to get detailed information on ten of Washington's ski resorts and some activities they have. There is an option to create an account that will allow the user to save a favorite resort and activity. By saving a favorite, that will move quick access links to the user's dashboard for more direct access to the info page in the app as well as the resort's own home page.",
       "gitHub": "https://github.com/kbnewlon/Cold-West-Tours",
       "deployed": "https://the-cold-west.herokuapp.com/"
+    },
+    {
+      "id": 3,
+      "name": "The Pantry",
+      "unique": "pant",
+      "imageSized": "./img/pantrySized.png",
+      "image": "./img/pantry.PNG",
+      "description": "A free web app, utilizing React, designed to help small bakeries keep track of inventory and revenue.",
+      "gitHub": "https://github.com/zhouyiartemiswang/the_pantry",
+      "deployed": "https://the-pantry-app.herokuapp.com/"
+    },
+    {
+      "id": 4,
+      "name": "The Pantry Api",
+      "unique": "papi",
+      "imageSized": "./img/pantryBackSized.png",
+      "image": "./img/pantryBack.png",
+      "description": "MySQL database api to handle the needs of The Pantry web app. The Pantry is a web app aimed to help small-scale bakeries with business and inventory management.",
+      "gitHub": "https://github.com/virlym/the-pantry-api",
+      "deployed": "https://the-pantry-app.herokuapp.com/"
+    },
+    {
+      "id": 5,
+      "name": "User Directory",
+      "unique": "udir",
+      "imageSized": "./img/userDirectorySized.png",
+      "image": "./img/userDirectory.PNG",
+      "description": "Pull a list of 200 random 'people' with data from an api, storing that data in state. Allowing the user to search through the names with partial matches, also allows the user to sort by first name, last name, and age by clicking on the corresponding heading.",
+      "gitHub": "https://github.com/virlym/hw19-user-directory",
+      "deployed": "https://hw19-user-directory.herokuapp.com/"
     }
 ]

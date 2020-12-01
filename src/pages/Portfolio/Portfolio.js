@@ -24,9 +24,7 @@ function Portfolio() {
                 <Project data={Projects[3]}/>
             </section>
             <section class="row">
-                <article class="col-lg-6">
-                    <img src="https://placekitten.com/350/350" class="figure-img img-fluid rounded folio-img" alt="placeholder img" />
-                </article>
+                <Project data={Projects[4]}/>
                 <article class="col-lg-6">
                 </article>
             </section>
