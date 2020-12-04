@@ -22,9 +22,9 @@ function App() {
         <Route exact path ="/portfolio">
           <Discover/>
         </Route>
-        <Route exact path ="/contact">
+        {/* <Route exact path ="/contact">
           <Search/>
-        </Route>
+        </Route> */}
         <Route exact path ="/">
           <About />
         </Route>

@@ -26,9 +26,9 @@ export default function NavBar() {
             </button>
             <nav className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <nav className="navbar-nav ml-auto text-right">
-                    <Link to="/contact" className={currentPage === "contact" ? "nav-item nav-link active" :  "nav-item nav-link"}>
+                    {/* <Link to="/contact" className={currentPage === "contact" ? "nav-item nav-link active" :  "nav-item nav-link"}>
                         Contact {currentPage === "contact" ? current : ""}
-                    </Link>
+                    </Link> */}
                     <Link to="/portfolio" className={currentPage === "portfolio" ? "nav-item nav-link active" :  "nav-item nav-link"}>
                         Portfolio {currentPage === "portfolio" ? current : ""}
                     </Link>

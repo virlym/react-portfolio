@@ -31,7 +31,8 @@ function About() {
         </p>
         <p> <a href="https://github.com/virlym" rel="noopener noreferrer" target="_blank">GitHub</a> <br /> 
           <a href="https://www.linkedin.com/in/virlym/" rel="noopener noreferrer" target="_blank">LinkedIn</a> <br />
-          <a href = {process.env.REACT_APP_RESUME_LINK} rel="noopener noreferrer" target = "_blank"> Resume </a>
+          <a href = {process.env.REACT_APP_RESUME_LINK} rel="noopener noreferrer" target = "_blank"> Resume </a> <br />
+          <a href = "mailto:virlym@gmail.com" rel="noopener noreferrer" target = "_blank"> Email : Virlym@gmail.com </a>
         </p>
       </article>
     </section>
