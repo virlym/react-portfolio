@@ -3,6 +3,7 @@ import About from "./pages/About/About";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Discover from "./pages/Portfolio/Portfolio";
+// import Search from "./pages/Contact/Contact";
 import {Helmet} from 'react-helmet';
 import './App.css';
 

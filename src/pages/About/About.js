@@ -24,10 +24,10 @@ function About() {
     </section>
     <section className="row">
       <article className="col-lg-12">
-        <p>Due to some family problems after graduating college, Devin hasn't been able to do much work in his field of
-          study for a time. This gap has left some rust in the field, and encouraged the joining of a UW Boot Camp
-          focused on the front-end of programming. While his previous experience was mostly back-end and embedded work,
-          the Boot Camp could provide a new learning area, as well as help dust the rust off the back-end knowledge.
+        <p>Due to some unforeseen complications, Devin hasn't been able to do much work in his field of
+          study for a time. An opportunity to attend a coding Boot Camp presented itself which had a
+          focus on front-end programming. While his previous experience was mostly back-end and embedded work,
+          the Boot Camp could provide a new learning area, as well as add to the back-end knowledge.
         </p>
         <p> <a href="https://github.com/virlym" rel="noopener noreferrer" target="_blank">GitHub</a> <br /> 
           <a href="https://www.linkedin.com/in/virlym/" rel="noopener noreferrer" target="_blank">LinkedIn</a> <br />
