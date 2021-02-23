@@ -41,12 +41,12 @@
     },
     {
       "id": 5,
-      "name": "User Directory",
-      "unique": "udir",
-      "imageSized": "./img/userDirectorySized.png",
-      "image": "./img/userDirectory.PNG",
-      "description": "Pull a list of 200 random 'people' with data from an api, storing that data in state. Allowing the user to search through the names with partial matches, also allows the user to sort by first name, last name, and age by clicking on the corresponding heading.",
-      "gitHub": "https://github.com/virlym/hw19-user-directory",
-      "deployed": "https://hw19-user-directory.herokuapp.com/"
+      "name": "Home Collections",
+      "unique": "hc",
+      "imageSized": "./img/homeCollectionsSized.png",
+      "image": "./img/homeCollections.PNG",
+      "description": "A free web app to help users keep track of their entertainment media. It utilizes React, MySQL, Google Books API, OMDB API, Spotify API, React Router, Axios, and Bootstrap.",
+      "gitHub": "https://github.com/virlym/home-collections",
+      "deployed": "https://home-collections.herokuapp.com/"
     }
 ]
