@@ -33,7 +33,7 @@
   ## **Usage**
 [Deployed link](https://djg-react-portfolio.herokuapp.com/)
 
-![About Preview](./public/img/aboutPreview.PNG)
+![About Preview](./public/img/aboutMe.PNG)
 ![Portfolio Preview](./public/img/portPreview.PNG)
   <br><br>
   
